@@ -25,7 +25,7 @@ from elasticsearch.exceptions import ConnectionError
 from elasticsearch.exceptions import ElasticsearchException
 from elasticsearch.exceptions import TransportError
 
-from . import kibana
+from .import kibana
 from .alerts import DebugAlerter
 from .config import load_conf
 from .enhancements import DropMatchException
